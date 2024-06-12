@@ -29,7 +29,7 @@ function extraerContenido() {
 // Esta función se encarga de obtener el resumen del texto utilizando la API de OpenAI.
 function obtenerResumen( texto ) {
   // Clave de API para autenticarse en el servicio de OpenAI.
-  let apiKey = '';
+  let apiKey = ' ';
   // URL de la API de OpenAI para obtener resúmenes.
   let url = 'https://api.openai.com/v1/chat/completions';
   // Datos que se enviarán a la API. Incluyen el modelo a usar y el texto a resumir.
