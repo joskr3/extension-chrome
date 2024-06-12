@@ -1,4 +1,4 @@
-// @ts-nocheck
-chrome.runtime.onInstalled.addListener( () => { 
-  console.log("Ectension instalada!!!")
-} )
+// @ts-ignore
+chrome.runtime.onInstalled.addListener( function () {
+  console.log( 'Extensión instalada' );
+} );

@@ -1,11 +1,21 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-#miBoton {
-  background: blue;
-  color: aqua;
-  border: 1px solid black;
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
   padding: 10px 20px;
   cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#resultado {
+  white-space: pre-wrap;
 }
